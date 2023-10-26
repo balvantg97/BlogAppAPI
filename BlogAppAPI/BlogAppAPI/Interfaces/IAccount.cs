@@ -1,0 +1,13 @@
+﻿using BlogAppAPI.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace BlogAppAPI.Interfaces
+{
+    public interface IAccount
+    {
+        bool RegisterUser(Register model);
+    }
+}
